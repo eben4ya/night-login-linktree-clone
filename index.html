@@ -1,47 +1,70 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
-    <title>My First Webpage</title>
-    <link rel="stylesheet" type="text/css" href="style.css" />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width,    initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+    <title>Bencode LinkTree</title>
   </head>
   <body>
-    <div
-      style="
-        max-width: 550px;
-        height: 100vh;
-        margin: 0 auto;
-        background-color: yellow;
-      "
-    >
-      <div
-        style="
-          display: flex;
-          flex-direction: column;
-          justify-content: center;
-          align-items: center;
-        "
-      >
+    <div class="container animate__animated animate__zoomIn">
+      <!-- profile picture -->
+      <div class="profile">
         <img
-          src="/public/img/Profile.jpg"
-          alt="Profile pict"
-          style="width: 150px; height: 150px; border-radius: 100%"
+          src="gif_result.gif"
+          alt="error image"
+          class="animate__animated animate__pulse animate__infinite"
         />
+        <!-- <p class="animate__animated animate__fadeInDownBig">Eben</p> -->
       </div>
-
-      <div
-        style="
-          display: flex;
-          flex-direction: column;
-          justify-content: center;
-          align-items: center;
-        "
+      <!-- link tree button -->
+      <div class="link">
+        <a
+          href="https://instagram.com/ebenaya_imanuela?igshid=YmMyMTA2M2Y="
+          target="_blank"
+          rel="noopener"
+          class="animate__animated animate__bounceInLeft"
+          >Instagram</a
+        >
+        <a
+          href="https://www.youtube.com/@benayaimanuela5535"
+          target="_blank"
+          rel="noopener"
+          class="animate__animated animate__bounceInLeft animate__delay-1s"
+          >Youtube</a
+        >
+        <a
+          href="https://www.linkedin.com/in/benaya-imanuela/"
+          target="_blank"
+          rel="noopener"
+          class="animate__animated animate__bounceInLeft animate__delay-2s"
+          >LinkedIn</a
+        >
+        <a
+          href="https://github.com/eben4ya"
+          target="_blank"
+          rel="noopener"
+          class="animate__animated animate__bounceInLeft animate__delay-3s"
+          >GITHub</a
+        >
+      </div>
+      <!-- footer -->
+      <!-- <div
+        class="footer animate__animated animate__bounceInUp animate__delay-4s"
       >
-        <a href="">My Projects</a>
-        <a href="https://github.com/eben4ya">Github</a>
-        <a href="">Linkedin</a>
-        <a href="">Instagram</a>
-      </div>
+        <i>Made with HTML & CSS</i>
+      </div> -->
     </div>
-    <script src="main.js"></script>
   </body>
 </html>
