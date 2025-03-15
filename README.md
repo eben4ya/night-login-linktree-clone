@@ -1,5 +1,7 @@
 # Linktree Clone
 
+![Web-Structur](/public/img/web-structur.png)
+
 Proyek ini adalah kloning sederhana dari Linktree, sebuah halaman arahan yang menampilkan beberapa tautan ke platform atau konten teman2. Dibangun menggunakan HTML dan CSS, proyek ini juga memanfaatkan animasi untuk meningkatkan interaktivitas dan estetika.
 
 ## Teknologi yang Digunakan
