@@ -33,6 +33,10 @@ html {
   border-radius: 100%;
 }
 
+.profile > img:hover {
+  cursor: pointer;
+}
+
 .profile > p {
   font-size: 2em;
   font-weight: 900;
