@@ -15,16 +15,19 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
     />
+    <script src="main.js"></script>
     <title>Bencode LinkTree</title>
   </head>
   <body>
     <div class="container animate__animated animate__zoomIn">
       <!-- profile picture -->
-      <div class="profile">
+      <div class="profile" >
         <img
+          id="profileImage"
           src="/public/img/gif_result.gif"
           alt="error image"
           class="animate__animated animate__pulse animate__infinite"
+          onclick="changeImgProfile()"
         />
         <!-- <p class="animate__animated animate__fadeInDownBig">Eben</p> -->
       </div>

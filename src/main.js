@@ -1,3 +1,23 @@
+function changeImgProfile() {
+  // Ambil elemen img
+  const profileImage = document.getElementById("profileImage");
+
+  // Tentukan gambar pengganti
+  const firstImage = "/public/img/gif_result.gif";
+  const secondImage = "/public/img/Profile.jpg";
+  // Ganti dengan path atau URL gambar lain sesuai kebutuhan
+
+  // Event ketika gambar diklik
+  profileImage.addEventListener("click", function () {
+    // Cek source saat ini, lalu toggle
+    if (profileImage.src.includes("gif_result.gif")) {
+      profileImage.src = secondImage;
+    } else {
+      profileImage.src = firstImage;
+    }
+  });
+}
+
 // cout << "hello world" << endl;
 
 // console.log("Hello World");
@@ -72,16 +92,16 @@
 // console.log(dataDiri);
 // console.log(dataDiri.prodi);
 
-const tugas = "Tugas1_494710_Benaya-Imanuela_Webdev.pdf";
+// const tugas = "Tugas1_494710_Benaya-Imanuela_Webdev.pdf";
 
-const nama = tugas.split("_");
+// const nama = tugas.split("_");
 
-console.log(nama);
+// console.log(nama);
 
-console.log(nama[2]);
+// console.log(nama[2]);
 
-const namaTugas = nama[3].split(".");
+// const namaTugas = nama[3].split(".");
 
-console.log(namaTugas);
+// console.log(namaTugas);
 
-console.log(namaTugas[0]);
+// console.log(namaTugas[0]);
